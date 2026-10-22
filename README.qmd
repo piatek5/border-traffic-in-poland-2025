@@ -27,7 +27,7 @@ if (!file.exists("data_clean/Sumy_2010_2025.rds")) {
 
 ## Ruch w latach 2010–2025
 
-Tu napisz 2–3 zdania: co widać na wykresach, co się stało w 2016 i 2020.
+Krótki komentarz.
 
 ```{r}
 #| label: ludzie
@@ -36,7 +36,7 @@ source("scripts/wykresy/ludzie_2010_2025.R", encoding = "UTF-8")
 
 ## Ruch graniczny w 2025
 
-Krótki komentarz do wykresów i map.
+Krótki komentarz.
 
 ```{r}
 #| label: ruch-2025
