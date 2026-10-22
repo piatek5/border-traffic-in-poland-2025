@@ -1,0 +1,57 @@
+---
+format: gfm
+execute:
+  echo: false
+  warning: false
+  message: false
+fig-width: 10
+fig-height: 6
+fig-dpi: 150
+---
+
+# Ruch graniczny w Polsce 2025
+
+Analiza ruchu na przejściach granicznych w Polsce na podstawie danych
+Straży Granicznej (2010–2025). Projekt w R (tidyverse, ggplot2, sf).
+
+```{r}
+#| label: setup
+save_all <- FALSE   # nie nadpisuj plików SVG w charts/
+source("scripts/wykresy/funkcje.R", encoding = "UTF-8")
+
+# Jeśli nie ma przetworzonych danych, przygotuj je (jak w main.R)
+if (!file.exists("data_clean/Sumy_2010_2025.rds")) {
+  source("scripts/wczytanie_obrobka.R", encoding = "UTF-8")
+}
+```
+
+## Ruch w latach 2010–2025
+
+Tu napisz 2–3 zdania: co widać na wykresach, co się stało w 2016 i 2020.
+
+```{r}
+#| label: ludzie
+source("scripts/wykresy/ludzie_2010_2025.R", encoding = "UTF-8")
+```
+
+## Ruch graniczny w 2025
+
+Krótki komentarz do wykresów i map.
+
+```{r}
+#| label: ruch-2025
+source("scripts/wykresy/ruch_caly_2025.R", encoding = "UTF-8")
+```
+
+## Przemyt
+
+Krótki komentarz.
+
+```{r}
+#| label: przemyt
+source("scripts/wykresy/przemyt.R", encoding = "UTF-8")
+```
+
+## Jak uruchomić
+
+Otwórz `ruch_graniczny.Rproj` i uruchom `scripts/main.R`.
