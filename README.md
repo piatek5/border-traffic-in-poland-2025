@@ -7,7 +7,7 @@ Straży Granicznej (2010–2025). Projekt w R (tidyverse, ggplot2, sf).
 
 ## Ruch w latach 2010–2025
 
-Tu napisz 2–3 zdania: co widać na wykresach, co się stało w 2016 i 2020.
+Krótki komentarz.
 
 ![](README_files/figure-commonmark/ludzie-1.png)
 
@@ -17,7 +17,7 @@ Tu napisz 2–3 zdania: co widać na wykresach, co się stało w 2016 i 2020.
 
 ## Ruch graniczny w 2025
 
-Krótki komentarz do wykresów i map.
+Krótki komentarz.
 
 ![](README_files/figure-commonmark/ruch-2025-1.png)
 
